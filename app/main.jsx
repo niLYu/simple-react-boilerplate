@@ -13,7 +13,7 @@ render(
   <Provider store={store}>
     <Router>
       <Switch>
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="*" component={NotFound} />
       </Switch>
     </Router>

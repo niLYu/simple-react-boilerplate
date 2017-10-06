@@ -8,7 +8,7 @@ module.exports = app
   .use(bodyParser.json())
   .use(express.static(path.join(__dirname, '../public')))
   .get('*', function (req, res, next) {
-    res.sendFile(path.join(__dirname, '../public'));
+    res.sendFile(path.join(__dirname, '../public/index.html'));
   });
 
 if (module === require.main) {
