@@ -7,7 +7,7 @@
     "build": "webpack -w",
     "build-production": "cross-env NODE_ENV=production npm run build",
     "start": "node server",
-    "start-production": "npm run build-production webpack -w &amp; npm start",
+    "start-prod": "npm run build-production webpack -w &amp; npm start",
     "start-dev": "cross-env NODE_ENV=development webpack -w &amp; nodemon server/index.js"
   },
   "repository": {
