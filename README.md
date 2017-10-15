@@ -6,7 +6,7 @@ Boilerplate based on Express, React, Redux, React Router, Node and Webpack.
 
 ## Installation
 
-Clone, the repo via git:
+Clone the repo via git:
 
 ```bash
 git clone --depth=1 https://github.com/nilyu/simple-react-boilerplate.git your-project-name
