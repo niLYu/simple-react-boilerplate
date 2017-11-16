@@ -9,7 +9,7 @@ module.exports = {
     path: __dirname,
     filename: './public/bundle.js',
   },
-  devtool: productionMode ? null : 'eval-source-map',
+  devtool: productionMode ? 'source-map' : 'eval-source-map',
   resolve: {
     extensions: ['.js', '.jsx', '.json', '*'],
   },
