@@ -1,4 +1,4 @@
-const env = process.env;
+const { env } = process;
 
 module.exports = {
   get isProduction() {
